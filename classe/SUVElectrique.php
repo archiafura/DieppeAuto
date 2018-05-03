@@ -1,0 +1,20 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Dell
+ * Date: 03/05/2018
+ * Time: 11:54
+ */
+
+class SUVElectrique extends Voiture
+{
+use Consommer;
+
+    /**
+     * @return mixed
+     */
+    public function affichCharge()
+    {
+        return $this->charge;
+    }
+}
